@@ -2,7 +2,7 @@ const Sequelize = require("sequelize");
 const sequelize = require("../db");
 
 const Expense = sequelize.define("expense", {
-    amount: {
+  amount: {
     type: Sequelize.STRING,
     allowNull: false
   },

@@ -7,7 +7,7 @@ function auth(req, res, next) {
 
 
     const auth = req.headers.authorization && req.headers.authorization.split(' ')
-    
+
     //console.log('before auth : ', auth )
     if (auth && auth[0] === 'Bearer' && auth[1]) {
         //console.log('after auth :', auth)

@@ -1,8 +1,8 @@
-const Sequelize = require('sequelize')
-const databaseUrl = process.env.DATABASE_URL || 'postgres://postgres:secret@localhost:5432/postgres'
-const db = new Sequelize(databaseUrl)
+const Sequelize = require('sequelize')
+const databaseUrl = process.env.DATABASE_URL || 'postgres://postgres:secret@localhost:5432/postgres'
+const db = new Sequelize(databaseUrl)
 db
-.sync({froce: true})
-.then(()=> console.log('database schema updated'))
-.catch(console.error)
-module.exports = db
+    .sync({ froce: true })
+    .then(() => console.log('database schema updated'))
+    .catch(console.error)
+module.exports = db

@@ -22,7 +22,7 @@ router.post('/login', (req, res, next) => {
     .then(user => {
       if (!user) {
         res.status(400).send({
-          message : 'User with this email does not exist'
+          message: 'User with this email does not exist'
         })
       }
       else if (bcrypt.compareSync(req.body.password, user.password)) {
@@ -35,7 +35,7 @@ router.post('/login', (req, res, next) => {
 
       else {
         res.status(400).send({
-          message : 'Password was incorrect'
+          message: 'Password was incorrect'
         })
       }
     })
