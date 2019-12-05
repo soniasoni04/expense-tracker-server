@@ -6,12 +6,12 @@ Link for Client at https://github.com/soniasoni04/Expense-Tracker-App
 
 ## Technologies used:
 
-  -bcrypt
-  -cors
-  -express
-  -jsonwebtoken
-  -pg
-  -sequelize
+  - bcrypt
+  - cors
+  - express
+  - jsonwebtoken
+  - pg
+  - sequelize
   
  ## Requirements:
  
