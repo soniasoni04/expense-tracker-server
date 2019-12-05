@@ -1,4 +1,7 @@
-# expense-tracker-server
-server for expense-tracker App
+## Expense-Tracker-App-Server
 
-Link for Client at git@github.com:soniasoni04/Expense-Tracker-App.git
+Server for Expense-Tracker-App
+
+Link for Client at https://github.com/soniasoni04/Expense-Tracker-App
+
+
